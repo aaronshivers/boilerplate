@@ -90,10 +90,35 @@
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("console.log('index.js')\n\n\n//# sourceURL=webpack:///./src/index.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _utilities__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./utilities */ \"./src/utilities.js\");\n/* harmony import */ var _scream__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scream */ \"./src/scream.js\");\n// import './utilities'\n\n\nconsole.log('index.js');\nconsole.log(Object(_utilities__WEBPACK_IMPORTED_MODULE_0__[\"add\"])(32, 1));\nconsole.log(_utilities__WEBPACK_IMPORTED_MODULE_0__[\"name\"]);\nconsole.log(Object(_scream__WEBPACK_IMPORTED_MODULE_1__[\"default\"])('ahhhhh'));\nconsole.log(Object(_utilities__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(5));\n\n//# sourceURL=webpack:///./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/scream.js":
+/*!***********************!*\
+  !*** ./src/scream.js ***!
+  \***********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return scream; });\nvar scream = function scream(text) {\n  return \"\".concat(text.toUpperCase(), \"!!!!\");\n};\n\n\n\n//# sourceURL=webpack:///./src/scream.js?");
+
+/***/ }),
+
+/***/ "./src/utilities.js":
+/*!**************************!*\
+  !*** ./src/utilities.js ***!
+  \**************************/
+/*! exports provided: add, name, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"add\", function() { return add; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"name\", function() { return name; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return square; });\n// Named export\nvar add = function add(a, b) {\n  return a + b;\n};\n\nvar name = 'Beavis'; // Default export\n\nvar square = function square(x) {\n  return x * x;\n};\n\n\n\n//# sourceURL=webpack:///./src/utilities.js?");
 
 /***/ })
 

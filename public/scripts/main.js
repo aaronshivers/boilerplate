@@ -94,7 +94,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _utilities__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./utilities */ \"./src/utilities.js\");\n/* harmony import */ var _scream__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scream */ \"./src/scream.js\");\n// import './utilities'\n\n\nconsole.log('index.js');\nconsole.log(Object(_utilities__WEBPACK_IMPORTED_MODULE_0__[\"add\"])(32, 1));\nconsole.log(_utilities__WEBPACK_IMPORTED_MODULE_0__[\"name\"]);\nconsole.log(Object(_scream__WEBPACK_IMPORTED_MODULE_1__[\"default\"])('ahhhhh'));\nconsole.log(Object(_utilities__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(5));\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _utilities__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./utilities */ \"./src/utilities.js\");\n/* harmony import */ var _scream__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scream */ \"./src/scream.js\");\n// import './utilities'\n\n\nconsole.log('index.js');\nconsole.log(Object(_utilities__WEBPACK_IMPORTED_MODULE_0__[\"add\"])(32, 1));\nconsole.log(_utilities__WEBPACK_IMPORTED_MODULE_0__[\"name\"]);\nconsole.log(Object(_scream__WEBPACK_IMPORTED_MODULE_1__[\"default\"])('ahhhhh'));\nconsole.log(Object(_utilities__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(10));\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 

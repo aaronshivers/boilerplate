@@ -15,8 +15,8 @@
     "webpack-dev-server": "^3.1.14"
   },
   "scripts": {
-    "webpack": "webpack -w",
-    "start:dev": "webpack-dev-server"
+    "start:dev": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
   },
   "author": "",
   "license": "ISC"

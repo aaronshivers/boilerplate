@@ -1,7 +1,6 @@
 const path = require('path')
 
 module.exports = {
-  mode: 'development',
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'public/scripts')
@@ -21,5 +20,6 @@ module.exports = {
   devServer: {
     contentBase: path.join(__dirname, 'public'),
     publicPath: '/scripts/'
-  }
+  },
+  devtool: 'source-map'
 }
